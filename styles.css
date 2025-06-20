@@ -1,0 +1,135 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.modal-header {
+    padding: 12px;
+}
+
+.modal-heading {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.title-box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.description {
+    margin-top: 8px;
+    color: #696969;
+}
+
+.automation-btn {
+    margin-top: 8px;
+}
+
+button {
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+#open-campaign-modal-btn {
+    margin-top: 8px;
+}
+
+#campaign-modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: none;
+  z-index: 999;
+}
+
+.modal {
+    border-radius: 16px;
+    height: 80vh;
+    width: 80vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 60px;
+    padding: 16px;
+    overflow: scroll;
+    z-index: 1000;
+    background-color: white;
+}
+
+.modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.card-container {
+    margin-top: 8px;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.card-button {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    border-radius: 16px;
+    border: 2px solid #E3E3E3;
+    overflow: hidden;
+    height: 8.75rem;
+    width: 16.3rem;
+}
+
+.card-image {
+  flex: 1 1 0;      /* grow = 1, shrink = 1, basis = 0 */
+  min-height: 0;    /* allow it to shrink smaller than its content */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-image img {
+  height: 100%;
+  width: auto;
+}
+
+.card-content {
+    padding: 8px;
+    text-align: center;
+}
+
+.card-container__auto {
+    margin-top: 8px;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.card-button__auto {
+    border-radius: 16px;
+    border: 2px solid #E3E3E3;
+    height: 8.25rem;
+    width: 16.3rem;
+    padding: 16px;
+    cursor: pointer;
+}
+
+.card-heading__auto {
+    font-weight: 700;
+}
+
+.card-description__auto {
+    margin-top: 8px;
+}
