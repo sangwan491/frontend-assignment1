@@ -1,420 +1,73 @@
 :root {
-    --brand-mint-green-100: hsl(100, 100%, 98.2%);
-    --brand-mint-green-200: hsl(103, 93.9%, 93.5%);
-    --brand-mint-green-300: hsl(103, 96.4%, 89%);
-    --brand-mint-green-400: hsl(103, 64%, 82.5%);
-    --brand-mint-green-500: hsl(103, 43.7%, 72.2%);
-    --brand-mint-green-600: hsl(102, 24.7%, 57.8%);
-    --brand-mint-green-700: hsl(103, 12.6%, 51.6%);
-    --brand-mint-green-800: hsl(101, 12.5%, 43.9%);
-    --brand-mint-green-900: hsl(103, 12.4%, 38%);
-    --brand-forest-green-100: hsl(164, 52.4%, 95.9%);
-    --brand-forest-green-200: hsl(162, 41.8%, 89.2%);
-    --brand-forest-green-300: hsl(162, 40.7%, 78.8%);
-    --brand-forest-green-400: hsl(162, 41.3%, 60.6%);
-    --brand-forest-green-500: hsl(162, 41%, 47.8%);
-    --brand-forest-green-600: hsl(162, 86.6%, 32.2%);
-    --brand-forest-green-700: hsl(162, 97%, 26.1%);
-    --brand-forest-green-800: hsl(158, 100%, 20.8%);
-    --brand-forest-green-900: hsl(156, 100%, 12.9%);
-    --brand-forest-green-950: hsl(159, 100%, 9%);
-    --brand-cream-100: hsl(47, 100%, 98.2%);
-    --brand-cream-200: hsl(45, 100%, 96.1%);
-    --brand-cream-300: hsl(47, 69.7%, 93.5%);
-    --brand-cream-500: hsl(48, 31.7%, 83.9%);
-    --brand-cream-400: hsl(48, 56.9%, 90%);
-    --brand-cream-600: hsl(49, 22.3%, 76.3%);
-    --brand-cream-700: hsl(46, 17.7%, 65.7%);
-    --brand-cream-800: hsl(44, 10.9%, 53.3%);
-    --brand-cream-900: hsl(47, 8.5%, 43.7%);
-    --brand-charcoal-grey-25: hsl(0, 0%, 98%);
-    --brand-charcoal-grey-50: hsl(0, 0%, 96%);
-    --brand-charcoal-grey-100: hsl(0, 0%, 94.1%);
-    --brand-charcoal-grey-200: hsl(0, 0%, 89%);
-    --brand-charcoal-grey-300: hsl(0, 0%, 81.2%);
-    --brand-charcoal-grey-400: hsl(0, 0%, 71%);
-    --brand-charcoal-grey-500: hsl(0, 0%, 52.2%);
-    --brand-charcoal-grey-600: hsl(0, 0%, 41.2%);
-    --brand-charcoal-grey-700: hsl(0, 0%, 27.8%);
-    --brand-charcoal-grey-800: hsl(0, 0%, 17.3%);
-    --brand-charcoal-grey-900: hsl(0, 0%, 10.6%);
-    --brand-iris-purple-100: hsl(244, 70%, 96.1%);
-    --brand-iris-purple-200: hsl(244, 65.2%, 91%);
-    --brand-iris-purple-300: hsl(245, 67%, 81%);
-    --brand-iris-purple-400: hsl(245, 67.6%, 71%);
-    --brand-iris-purple-500: hsl(245, 67%, 60.8%);
-    --brand-iris-purple-600: hsl(245, 52.4%, 54.7%);
-    --brand-iris-purple-700: hsl(245, 43.5%, 48.6%);
-    --brand-iris-purple-800: hsl(245, 42.9%, 42.5%);
-    --brand-iris-purple-900: hsl(245, 43%, 36.5%);
-    --brand-sky-blue-100: hsl(209, 100%, 95%);
-    --brand-sky-blue-200: hsl(209, 100%, 92%);
-    --brand-sky-blue-300: hsl(209, 100%, 87%);
-    --brand-sky-blue-400: hsl(209, 100%, 84%);
-    --brand-sky-blue-500: hsl(209, 100%, 79%);
-    --brand-sky-blue-600: hsl(209, 100%, 74%);
-    --brand-sky-blue-700: hsl(209, 75%, 63%);
-    --brand-sky-blue-800: hsl(209, 67%, 45%);
-    --brand-sky-blue-900: hsl(209, 64%, 37%);
-    --brand-coral-orange-100: hsl(16, 100%, 97.1%);
-    --brand-coral-orange-200: hsl(18, 100%, 91%);
-    --brand-coral-orange-300: hsl(18, 100%, 81%);
-    --brand-coral-orange-400: hsl(18, 100%, 71%);
-    --brand-coral-orange-500: hsl(15, 100%, 62%);
-    --brand-coral-orange-600: hsl(15, 85%, 58%);
-    --brand-coral-orange-700: hsl(15, 69.2%, 51.6%);
-    --brand-coral-orange-800: hsl(14, 61.4%, 45.7%);
-    --brand-coral-orange-900: hsl(14, 60.4%, 39.6%);
-    --brand-aqua-teal-100: hsl(180, 76.5%, 96.7%);
-    --brand-aqua-teal-200: hsl(180, 53.2%, 90.8%);
-    --brand-aqua-teal-300: hsl(180, 52%, 80.4%);
-    --brand-aqua-teal-400: hsl(180, 52.1%, 62.4%);
-    --brand-aqua-teal-500: hsl(180, 72%, 42%);
-    --brand-aqua-teal-600: hsl(180, 76.7%, 35.3%);
-    --brand-aqua-teal-700: hsl(180, 59%, 37%);
-    --brand-aqua-teal-800: hsl(180, 72.6%, 24.3%);
-    --brand-aqua-teal-900: hsl(180, 76.8%, 18.6%);
-    --brand-peony-pink-100: hsl(333, 100%, 97.8%);
-    --brand-peony-pink-200: hsl(339, 81.3%, 93.7%);
-    --brand-peony-pink-300: hsl(338, 61.5%, 89.8%);
-    --brand-peony-pink-400: hsl(339, 75.8%, 82.2%);
-    --brand-peony-pink-500: hsl(338, 96.7%, 75.9%);
-    --brand-peony-pink-600: hsl(338, 83.6%, 68.8%);
-    --brand-peony-pink-700: hsl(338, 89%, 59%);
-    --brand-peony-pink-800: hsl(339, 68.9%, 52.2%);
-    --brand-peony-pink-900: hsl(339, 65.6%, 42.2%);
-    --brand-metallic-gold-100: hsl(48, 33.3%, 97.1%);
-    --brand-metallic-gold-200: hsl(46, 33.3%, 92.4%);
-    --brand-metallic-gold-300: hsl(45, 35.6%, 82.9%);
-    --brand-metallic-gold-400: hsl(44, 34.8%, 72.4%);
-    --brand-metallic-gold-500: hsl(45, 34%, 59%);
-    --brand-metallic-gold-600: hsl(44, 34.2%, 52.4%);
-    --brand-metallic-gold-700: hsl(45, 33.9%, 43.9%);
-    --brand-metallic-gold-800: hsl(45, 34.1%, 33.9%);
-    --brand-metallic-gold-900: hsl(45, 34.3%, 26.9%);
-    --brand-tulip-red-100: hsl(354, 100%, 96.3%);
-    --brand-tulip-red-200: hsl(353, 100%, 92%);
-    --brand-tulip-red-300: hsl(353, 100%, 84.9%);
-    --brand-tulip-red-400: hsl(353, 100%, 77.6%);
-    --brand-tulip-red-500: hsl(353, 100%, 68.8%);
-    --brand-tulip-red-600: hsl(353, 100%, 61.4%);
-    --brand-tulip-red-700: hsl(349, 80.2%, 52.4%);
-    --brand-tulip-red-800: hsl(349, 77.7%, 45.7%);
-    --brand-tulip-red-900: hsl(349, 77.8%, 40.6%);
-    --brand-white: hsl(0, 0%, 100%);
-    --brand-black: #000;
-    --brand-cta-default-primary: linear-gradient(0deg, #1b1b1b 0%, #2c2c2c 100%);
-    --brand-cta-default-secondary: linear-gradient(0deg, #fafafa 0%, #fff 100%);
-    --brand-ai-surface-light: radial-gradient(at 100% 97.9%, #efeefc 0%, transparent 50%), radial-gradient(at 29.51% 100%, #f7f7fd 0%, transparent 50%), radial-gradient(at 63.63% 3.19%, #f8f7fe 0%, transparent 50%), #e1f1ff;
-    --brand-ai-surface-dark: radial-gradient(at 85.67% 11.83%, #e0ddfd 0%, transparent 50%), radial-gradient(at 4.57% 10.45%, #dddbff 0%, transparent 50%), radial-gradient(at 82.52% 92.78%, #d6ebff 0%, transparent 50%), radial-gradient(at 9.76% 85.25%, #bcdfff 0%, transparent 50%), #e4f2ff;
-    --brand-ai-border-light: radial-gradient(at 100% 97.9%, #f1f0ff 0%, transparent 50%), radial-gradient(at 92.32% 11.35%, #8b83e7 0%, transparent 50%), radial-gradient(at 25% 88.49%, #b3aeef 0%, transparent 50%), radial-gradient(at 9.63% 2.33%, #78beff 0%, transparent 50%), radial-gradient(at 97.64% 95.8%, #1500ff 0%, transparent 50%), #d7ecff;
-    --brand-ai-border-dark: radial-gradient(at 58.03% 100%, #58a2e7 0%, transparent 50%), radial-gradient(at 42.28% 52.2%, #e5f3ff 0%, transparent 50%), radial-gradient(at 83% 91%, #58a2e7 0%, transparent 50%), radial-gradient(at 12.8% 90.44%, #5f51f0 0%, transparent 50%), radial-gradient(at .81% 39.61%, #78beff 0%, transparent 50%), radial-gradient(at 70.93% 0%, #4d3fee 0%, transparent 50%), radial-gradient(at 82.42% 77.54%, #563aec 0%, transparent 50%), radial-gradient(at 7.22% 37.78%, #3836c4 0%, transparent 50%), #d7ecff;
-    --brand-typo_font-family--primary_regular: "Tomato-Grotesk-Regular", "Verdana", sans-serif, "ui-sans-serif", "system-ui", "-apple-system";
-    --brand-typo_font-family--primary_medium: "Tomato-Grotesk-Medium", "Verdana", sans-serif, "ui-sans-serif", "system-ui", "-apple-system";
-    --brand-typo_font-family--primary_semibold: "Tomato-Grotesk-Semibold", "Verdana", sans-serif, "ui-sans-serif", "system-ui", "-apple-system";
-    --brand-typo_font-family--primary_bold: "Tomato-Grotesk-Bold", "Verdana", sans-serif, "ui-sans-serif", "system-ui", "-apple-system";
-    --brand-typo_font-family--secondary_regular: "Inter-Regular", "Arial", sans-serif, "ui-sans-serif", "system-ui", "-apple-system";
-    --brand-typo_font-family--secondary_medium: "Inter-Medium", "Arial", sans-serif, "ui-sans-serif", "system-ui", "-apple-system";
-    --brand-typo_font-family--secondary_semibold: "Inter-SemiBold", "Arial", sans-serif, "ui-sans-serif", "system-ui", "-apple-system";
-    --brand-typo_font-family--secondary_bold: "Inter-Bold", "Arial", sans-serif, "ui-sans-serif", "system-ui", "-apple-system";
-    --brand-typo_font-weight--regular: 400;
-    --brand-typo_font-weight--medium: 500;
-    --brand-typo_font-weight--semibold: 600;
-    --brand-typo_font-weight--bold: 700;
-    --brand-typo_text-0-font-size: 0.625rem;
-    --brand-typo_text-1-font-size: 0.75rem;
-    --brand-typo_text-2-font-size: 0.875rem;
-    --brand-typo_text-3-font-size: 1rem;
-    --brand-typo_text-4-font-size: 1.125rem;
-    --brand-typo_text-5-font-size: 1.25rem;
-    --brand-typo_heading-1-font-size: 1rem;
-    --brand-typo_heading-2-font-size: 1.125rem;
-    --brand-typo_heading-3-font-size: 1.25rem;
-    --brand-typo_heading-3-5-font-size: 1.375rem;
-    --brand-typo_heading-4-font-size: 1.5rem;
-    --brand-typo_heading-4-5-font-size: 1.75rem;
-    --brand-typo_heading-5-font-size: 2rem;
-    --brand-typo_heading-6-font-size: 2.25rem;
-    --brand-typo_heading-7-font-size: 2.5rem;
-    --brand-typo_heading-8-font-size: 3rem;
-    --brand-typo_heading-9-font-size: 3.5rem;
-    --brand-typo_heading-10-font-size: 4rem;
-    --brand-typo_heading-11-font-size: 5rem;
-    --brand-typo_text-0-line-height: 0.75rem;
-    --brand-typo_text-1-line-height: 1rem;
-    --brand-typo_text-2-line-height: 1.25rem;
-    --brand-typo_text-3-line-height: 1.5rem;
-    --brand-typo_heading-0-5-line-height: 1.125rem;
-    --brand-typo_heading-1-line-height: 1.25rem;
-    --brand-typo_heading-2-line-height: 1.5rem;
-    --brand-typo_heading-2-5-line-height: 1.75rem;
-    --brand-typo_heading-3-line-height: 2rem;
-    --brand-typo_heading-3-5-line-height: 2.25rem;
-    --brand-typo_heading-4-line-height: 2.5rem;
-    --brand-typo_heading-5-line-height: 2.75rem;
-    --brand-typo_heading-6-line-height: 3rem;
-    --brand-typo_heading-7-line-height: 3.5rem;
-    --brand-typo_heading-8-line-height: 4rem;
-    --brand-typo_heading-9-line-height: 4.5rem;
-    --brand-typo_heading-10-line-height: 5.5rem;
-    --brand-spacing_0: 0;
-    --brand-spacing_1: 0.25rem;
-    --brand-spacing_2: 0.5rem;
-    --brand-spacing_3: 0.75rem;
-    --brand-spacing_4: 1rem;
-    --brand-spacing_5: 1.25rem;
-    --brand-spacing_6: 1.5rem;
-    --brand-spacing_7: 1.75rem;
-    --brand-spacing_8: 2rem;
-    --brand-spacing_9: 2.25rem;
-    --brand-spacing_10: 2.5rem;
-    --brand-spacing_11: 2.75rem;
-    --brand-spacing_12: 3rem;
-    --brand-spacing_14: 3.5rem;
-    --brand-spacing_16: 4rem;
-    --brand-spacing_20: 5rem;
-    --brand-spacing_24: 6rem;
-    --brand-spacing_32: 8rem;
-    --brand-spacing_40: 10rem;
-    --brand-spacing_48: 12rem;
-    --brand-spacing_56: 14rem;
-    --brand-spacing_64: 16rem;
-    --brand-spacing_80: 20rem;
-    --brand-rounded-x0: 0;
-    --brand-rounded-x1: 0.25rem;
-    --brand-rounded-x2: 0.5rem;
-    --brand-rounded-x3: 0.75rem;
-    --brand-rounded-x4: 1rem;
-    --brand-rounded-x5: 1.25rem;
-    --brand-rounded-x6: 1.5rem;
-    --brand-rounded-x8: 2rem;
-    --brand-rounded-x10: 2.5rem;
-    --brand-rounded-x12: 3rem;
-    --brand-rounded-x16: 4rem;
-    --brand-rounded-x20: 5rem;
-    --brand-rounded-x40: 10rem;
-    --brand-shadow_light-xsmall: 0 1px 2px hsla(0, 0%, 11%, 0.08);
-    --brand-shadow_light-small: 0 4px 8px -2px hsla(0, 0%, 11%, 0.14), 0 2px 4px -2px hsla(0, 0%, 11%, .1);
-    --brand-shadow_light-medium: 0 10px 16px -4px hsla(0, 0%, 11%, 0.1), 0 4px 6px -2px hsla(0, 0%, 11%, .04);
-    --brand-shadow_light-large: 0 20px 24px -4px hsla(0, 0%, 11%, 0.08), 0 8px 8px hsla(0, 0%, 11%, .03);
-    --brand-shadow_light-drag: 0 20px 32px -4px hsla(0, 0%, 11%, 0.1), 0 12px 20px -2px hsla(0, 0%, 11%, .102), 0 4px 8px 0 hsla(0, 0%, 11%, .122);
-    --brand-shadow_dark-xsmall: 0 1px 2px hsla(0, 0%, 0%, 0.16);
-    --brand-shadow_dark-small: 0 4px 8px -2px hsla(0, 0%, 0%, 0.24), 0 2px 4px -2px hsla(0, 0%, 0%, .16);
-    --brand-shadow_dark-medium: 0 10px 16px -4px hsla(0, 0%, 0%, 0.2), 0 4px 6px -2px hsla(0, 0%, 0%, .16);
-    --brand-shadow_dark-large: 0 20px 24px -4px hsla(0, 0%, 0%, 0.2), 0 8px 8px hsla(0, 0%, 0%, .16);
-    --sib-color_primary-press: var(--brand-charcoal-grey-700, hsl(0, 0%, 27.8%));
-    --sib-color_primary-hover: var(--brand-charcoal-grey-800, hsl(0, 0%, 17.3%));
-    --sib-color_primary-default: var(--brand-charcoal-grey-900, hsl(0, 0%, 10.6%));
-    --sib-color_primary-graphical: var(--brand-charcoal-grey-900, hsl(0, 0%, 10.6%));
-    --sib-color_primary-background: var(--brand-charcoal-grey-50, hsl(0, 0%, 96%));
-    --sib-color_primary-background-dark: var(--brand-charcoal-grey-100, hsl(0, 0%, 94.1%));
-    --sib-color_negative-press: var(--brand-tulip-red-900, hsl(156, 100%, 12.9%));
-    --sib-color_negative-hover: var(--brand-tulip-red-800, hsl(158, 100%, 20.8%));
-    --sib-color_negative-default: var(--brand-tulip-red-600, hsl(353, 100%, 61.4%));
-    --sib-color_negative-graphical: var(--brand-tulip-red-600, hsl(353, 100%, 61.4%));
-    --sib-color_negative-background: var(--brand-tulip-red-100, hsl(354, 100%, 96.3%));
-    --sib-color_negative-background-dark: var(--brand-tulip-red-200, hsl(353, 100%, 92%));
-    --sib-color_positive-press: var(--brand-forest-green-800, hsl(158, 100%, 20.8%));
-    --sib-color_positive-hover: var(--brand-forest-green-700, hsl(162, 97%, 26.1%));
-    --sib-color_positive-default: var(--brand-forest-green-600, hsl(162, 86.6%, 32.2%));
-    --sib-color_positive-graphical: var(--brand-forest-green-600, hsl(162, 86.6%, 32.2%));
-    --sib-color_positive-background: var(--brand-forest-green-100, hsl(164, 52.4%, 95.9%));
-    --sib-color_positive-background-dark: var(--brand-forest-green-200, hsl(162, 41.8%, 89.2%));
-    --sib-color_positive-selected: var(--brand-iris-purple-100, hsl(244, 70%, 96.1%));
-    --sib-color_information-press: var(--brand-iris-purple-800, hsl(245, 42.9%, 42.5%));
-    --sib-color_information-hover: var(--brand-iris-purple-700, hsl(245, 43.5%, 48.6%));
-    --sib-color_information-default: var(--brand-iris-purple-500, hsl(245, 67%, 60.8%));
-    --sib-color_information-graphical: var(--brand-iris-purple-500, hsl(245, 67%, 60.8%));
-    --sib-color_information-background: var(--brand-iris-purple-100, hsl(244, 70%, 96.1%));
-    --sib-color_information-background-dark: var(--brand-iris-purple-200, hsl(244, 65.2%, 91%));
-    --sib-color_warning-press: var(--brand-coral-orange-900, hsl(14, 60.4%, 39.6%));
-    --sib-color_warning-hover: var(--brand-coral-orange-800, hsl(14, 61.4%, 45.7%));
-    --sib-color_warning-default: var(--brand-coral-orange-500, hsl(15, 100%, 62%));
-    --sib-color_warning-graphical: var(--brand-coral-orange-500, hsl(15, 100%, 62%));
-    --sib-color_warning-background: var(--brand-coral-orange-100, hsl(16, 100%, 97.1%));
-    --sib-color_warning-background-dark: var(--brand-coral-orange-200, hsl(18, 100%, 91%));
-    --sib-color_content-primary: var(--brand-charcoal-grey-900, hsl(0, 0%, 10.6%));
-    --sib-color_content-secondary: var(--brand-charcoal-grey-600, hsl(0, 0%, 41.2%));
-    --sib-color_content-white: var(--brand-white, hsl(0, 0%, 100%));
-    --sib-color_surface-white-background: var(--brand-white, hsl(0, 0%, 100%));
-    --sib-color_surface-sidebar-background: var(--brand-charcoal-grey-50, hsl(0, 0%, 96%));
-    --sib-color_surface-grey-background: var(--brand-charcoal-grey-100, hsl(0, 0%, 94.1%));
-    --sib-color_surface-mid-grey-background: var(--brand-charcoal-grey-200, hsl(0, 0%, 89%));
-    --sib-color_surface-hover-background: var(--brand-charcoal-grey-300, hsl(0, 0%, 81.2%));
-    --sib-color_surface-extra-light-grey-background: var(--brand-charcoal-grey-25, hsl(0, 0%, 98%));
-    --sib-color_surface-overlays-background: hsla(102, 12%, 38%, 0.4);
-    --sib-color_accent-01: var(--brand-metallic-gold-400, hsl(44, 34.8%, 72.4%));
-    --sib-color_accent-02: var(--brand-tulip-red-300, hsl(353, 100%, 84.9%));
-    --sib-color_accent-03: var(--brand-mint-green-300, hsl(103, 96.4%, 89%));
-    --sib-color_accent-04: var(--brand-mint-green-200, hsl(103, 93.9%, 93.5%));
-    --sib-color_accent-05: var(--brand-mint-green-100, hsl(100, 100%, 98.2%));
-    --sib-color_accent-06: var(--brand-aqua-teal-300, hsl(180, 52%, 80.4%));
-    --sib-color_accent-07: var(--brand-cream-300, hsl(47, 69.7%, 93.5%));
-    --sib-color_accent-08: var(--brand-cream-200, hsl(45, 100%, 96.1%));
-    --sib-color_accent-gold-background: var(--brand-metallic-gold-400, hsl(44, 34.8%, 72.4%));
-    --sib-color_accent-pink-background: var(--brand-tulip-red-300, hsl(353, 100%, 84.9%));
-    --sib-color_interactive-default: var(--brand-charcoal-grey-900, hsl(0, 0%, 10.6%));
-    --sib-cta-default-primary: var(--brand-cta-default-primary, linear-gradient(0deg, #1b1b1b 0%, #2c2c2c 100%));
-    --sib-cta-default-secondary: var(--brand-cta-default-secondary, linear-gradient(0deg, #fafafa 0%, #fff 100%));
-    --brand-ai-surface-light--fallback: radial-gradient(at 100% 97.9%, #efeefc 0%, transparent 50%), radial-gradient(at 29.51% 100%, #f7f7fd 0%, transparent 50%), radial-gradient(at 63.63% 3.19%, #f8f7fe 0%, transparent 50%), #e1f1ff;
-    --sib-cta-ai-surface-light: var(--brand-ai-surface-light, --brand-ai-surface-light--fallback);
-    --brand-ai-surface-dark--fallback: radial-gradient(at 85.67% 11.83%, #e0ddfd 0%, transparent 50%), radial-gradient(at 4.57% 10.45%, #dddbff 0%, transparent 50%), radial-gradient(at 82.52% 92.78%, #d6ebff 0%, transparent 50%), radial-gradient(at 9.76% 85.25%, #bcdfff 0%, transparent 50%), #e4f2ff;
-    --sib-cta-ai-surface-dark: var(--brand-ai-surface-dark, --brand-ai-surface-dark--fallback);
-    --brand-ai-border-light--fallback: radial-gradient(at 100% 97.9%, #f1f0ff 0%, transparent 50%), radial-gradient(at 92.32% 11.35%, #8b83e7 0%, transparent 50%), radial-gradient(at 25% 88.49%, #b3aeef 0%, transparent 50%), radial-gradient(at 9.63% 2.33%, #78beff 0%, transparent 50%), radial-gradient(at 97.64% 95.8%, #1500ff 0%, transparent 50%), #d7ecff;
-    --sib-cta-ai-border-light: var(--brand-ai-border-light, --brand-ai-border-light--fallback);
-    --brand-ai-border-dark--fallback: radial-gradient(at 58.03% 100%, #58a2e7 0%, transparent 50%), radial-gradient(at 42.28% 52.2%, #e5f3ff 0%, transparent 50%), radial-gradient(at 83% 91%, #58a2e7 0%, transparent 50%), radial-gradient(at 12.8% 90.44%, #5f51f0 0%, transparent 50%), radial-gradient(at .81% 39.61%, #78beff 0%, transparent 50%), radial-gradient(at 70.93% 0%, #4d3fee 0%, transparent 50%), radial-gradient(at 82.42% 77.54%, #563aec 0%, transparent 50%), radial-gradient(at 7.22% 37.78%, #3836c4 0%, transparent 50%), #d7ecff;
-    --sib-cta-ai-border-dark: var(--brand-ai-border-dark, --brand-ai-border-dark--fallback);
-    --sib-color_upgrade-press: var(--brand-peony-pink-800, hsl(339, 68.9%, 52.2%));
-    --sib-color_upgrade-hover: var(--brand-peony-pink-700, hsl(338, 80.9%, 59%));
-    --sib-color_upgrade-default: var(--brand-peony-pink-600, hsl(338, 83.6%, 68.8%));
-    --sib-color_upgrade-graphical: var(--brand-peony-pink-600, hsl(338, 83.6%, 68.8%));
-    --sib-color_upgrade-background: var(--brand-peony-pink-100, hsl(333, 100%, 97.8%));
-    --sib-color_upgrade-background-dark: var(--brand-peony-pink-200, hsl(339, 81.3%, 93.7%));
- 
-    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-    --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-    --transition-fast: 150ms ease-in-out;
-    --transition-base: 250ms ease-in-out;
-    --transition-slow: 350ms ease-in-out;
-
+    /* Typography */
     --font-size-base: 1rem;
     --font-family-base: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
-
+    
+    /* Colors - Background */
     --color-email-bg: #effdfd;
     --color-sms-bg: #efeefc;
     --color-push-bg: #faf9f4;
     --color-whatsapp-bg: #fff3f0;
-
-    --border-radius_sm: 0.25rem;
-    --border-radius_md: 0.5rem;
-    --border-radius_lg: 1rem;
+    
+    /* Colors - Base */
+    --color-gold: hsl(44, 34.8%, 72.4%);
+    --color-white: white;
+    --color-black: black;
+    
+    /* Colors - Gray Scale */
+    --color-extra-light-grey: hsl(0, 0%, 98%);
+    --color-light-grey: hsl(0, 0%, 94.1%);
+    --color-mid-grey: hsl(0, 0%, 89%);
+    --color-grey: hsl(0, 0%, 81.2%);
+    
+    /* Colors - Content */
+    --color-content-primary: black;
+    --color-content-secondary: hsl(0, 0%, 41.2%);
+    --color-overlay: rgba(0, 0, 0, 0.3);
+    --color-accent-01: #efeefc;
+    
+    /* Border Radius */
+    --border-radius_sm: 0.5rem;
+    --border-radius_md: 1rem;
+    --border-radius_lg: 1.5rem;
     --border-radius_xlg: 2rem;
+    
+    /* Shadows */
+    --shadow_light-xsmall: 0 1px 2px hsla(0, 0%, 11%, 0.08);
+    --shadow_light-small: 0 4px 8px -2px hsla(0, 0%, 11%, 0.14), 0 2px 4px -2px hsla(0, 0%, 11%, .1);
+    --shadow_light-medium: 0 10px 16px -4px hsla(0, 0%, 11%, 0.1), 0 4px 6px -2px hsla(0, 0%, 11%, .04);
+    --shadow_light-large: 0 20px 24px -4px hsla(0, 0%, 11%, 0.08), 0 8px 8px hsla(0, 0%, 11%, .03);
+    --shadow_light-drag: 0 20px 32px -4px hsla(0, 0%, 11%, 0.1), 0 12px 20px -2px hsla(0, 0%, 11%, .102), 0 4px 8px 0 hsla(0, 0%, 11%, .122);
+    --shadow_dark-xsmall: 0 1px 2px hsla(0, 0%, 0%, 0.16);
+    --shadow_dark-small: 0 4px 8px -2px hsla(0, 0%, 0%, 0.24), 0 2px 4px -2px hsla(0, 0%, 0%, .16);
+    --shadow_dark-medium: 0 10px 16px -4px hsla(0, 0%, 0%, 0.2), 0 4px 6px -2px hsla(0, 0%, 0%, .16);
+    
+    /* Transitions */
+    --transition-fast: 150ms ease-in-out;
+    --transition-base: 250ms ease-in-out;
+    --transition-slow: 350ms ease-in-out;
+    
+    /* Z-Index */
+    --z-modal-header: 10;
 }
 
-* {
+/* ===== RESET STYLES ===== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;  
   font-family: var(--font-family-base);
   font-size: var(--font-size-base);
-  line-height: var(--line-height-base);
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  line-height: var(--line-height-base); 
 }
 
 body {
     padding: 12px;
 }
 
-.email-bg {
-    background-color: var(--color-email-bg);
-}
-
-.whatsapp-bg {
-    background-color: var(--color-whatsapp-bg);
-}
-
-.webpush-bg {
-    background-color: var(--color-webpush-bg);
-}
-
-.sms-bg {
-    background-color: var(--color-sms-bg);
-}
-
-.modal-header-container {
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    background-color: white;
-}
-
-#campaign-modal {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.3);
-  display: none;
-}
-
-#campaign-modal.active {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.activate-btn {
-    padding: 6px;
-    border-radius: 16px;
-    background-color: var(--sib-color_accent-gold-background);
-    font-size: 0.8125rem;
-    font-weight: 400;
-}
-
-.card-content {
-    padding-left: 8px;
-    padding-right: 8px;
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    font-weight: 600;
-    font-size: 16px;
-}
-
-.card-content span{
-    flex-grow: 1;
-    text-align: center;
-}
-
-.modal {
-    border-radius: 16px;
-    height: 80%;
-    max-width: 880px;
-    overflow: scroll;
-    background-color: white;
-    text-align: start;
-    margin-left: 32px;
-    margin-right: 32px;
-    flex-grow: 1;
-}
-
-.modal-border {
-    height: 1px;
-    border-top: 1px solid var(--sib-color_surface-hover-background) ;
-}
-
-.modal-header {
-    padding: 32px;
-}
-
-.modal-content {
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-bottom: 32px;
-}
-
-.modal-heading {
-    font-weight: 500;
-    font-size: 24px;
-}
-
-.title-box-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 24px;
-    margin-bottom: 16px;
-    flex-wrap: wrap;
-    gap: 8px;
-}
-
-.description {
-    margin-top: 8px;
-    color: #696969;
-}
-
+/* ===== BASIC ELEMENTS ===== */
 button {
     cursor: pointer;
     border: none;
@@ -426,60 +79,119 @@ button {
     flex-shrink: 0;
 }
 
-.automation-btn {
-    padding: 8px 12px;
-    background-color: white;
-    border-radius: 16px;
-    border: 1px solid var(--sib-color_surface-mid-grey-background);
-    color: black;
-    font-weight: 600;
-}
-
-.automation-btn:hover {
-    background-color: #efeefc;
-}
-
-.close-btn {
-    width: 28px;
-    height: 28px;
-    color: var(--sib-color_content-secondary);
-    border-radius: var(--border-radius_md);
-    font-size: 24px;
-}
-
-.close-btn:hover {
-    background-color: var(--brand-charcoal-grey-200);
-}
-
+/* ===== OPEN CAMPAIGN BUTTON ===== */
 #open-campaign-modal-btn {
     margin-top: 8px;
     padding: 8px 12px;
-    background-color: black;
-    color: white;
-    border-radius: 16px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    border-radius: var(--border-radius_md);
+}
+
+/* ===== CAMPAIGN MODAL ===== */
+#campaign-modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-overlay);
+    display: none;
+}
+
+#campaign-modal.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+    border-radius: var(--border-radius_md);
+    height: 80%;
+    max-width: 880px;
+    overflow-y: auto;
+    background-color: var(--color-white);
+    text-align: start;
+    margin-left: 32px;
+    margin-right: 32px;
+    flex-grow: 1;
+}
+
+/* Modal Header */
+.modal-header-container {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: var(--z-modal-header);
 }
 
 .modal-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 32px;
 }
 
-.card-container {
+.modal-heading {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.close-btn {
+    width: 28px;
+    height: 28px;
+    color: var(--color-content-secondary);
+    border-radius: var(--border-radius_sm);
+    font-size: 24px;
+}
+
+.close-btn:hover {
+    background-color: var(--color-mid-grey);
+}
+
+.modal-border {
+    height: 1px;
+    border-top: 1px solid var(--color-mid-grey);
+}
+
+/* Title Box Common Styles */
+.title-box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 1.5rem 0rem 1.5rem;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.title {
+    font-size: 1.25rem;
+}
+
+.description {
     margin-top: 8px;
+    color: var(--color-content-secondary);
+}
+
+/* Common Card Container Styles */
+.card-container {
+    padding: 24px 32px;
+    margin-bottom: 24px;
     display: grid;
     gap: 16px;
     grid-template-columns: repeat(auto-fill, minmax(14.5rem, 1fr));
     justify-items: center;
 }
 
+/* ===== STANDARD CAMPAIGN SECTION ===== */
+/* Standard Campaign Cards */
 .card-button {
     display: grid;
     grid-template-rows: 70% 30%;
     grid-template-columns: 100%;
     cursor: pointer;
-    border-radius: 16px;
-    border: 1px solid var(--sib-color_surface-mid-grey-background);
+    border-radius: var(--border-radius_md);
+    border: 1px solid var(--color-mid-grey);
     overflow: hidden;
     height: 8.75rem;
     width: 16.3rem;
@@ -488,21 +200,12 @@ button {
 }
 
 .card-button.active:hover {
-    box-shadow: var(--sib-shadow_dark-small);
+    box-shadow: var(--shadow_dark-small);
     transition: var(--transition-fast);
-    transform:  scale(1.02);
-}
-
-.card-img {
-  flex: 1 1 0;      /* grow = 1, shrink = 1, basis = 0 */
-  min-height: 0;    /* allow it to shrink smaller than its content */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    transform: scale(1.02);
 }
 
 .card-image {
-    /* min-height: 0; */
     height: 100%;
     width: 100%;
     display: flex;
@@ -511,33 +214,84 @@ button {
 }
 
 .card-image img {
-  height: 100%;
-  width: auto;
+    height: 100%;
+    width: auto;
 }
 
-.card-button__auto {
+.card-content {
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.card-content span {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.activate-btn {
+    padding: 6px;
     border-radius: 16px;
-    border: 1px solid var(--sib-color_surface-mid-grey-background);
+    background-color: var(--color-gold);
+    font-size: 0.8125rem;
+    font-weight: 400;
+}
+
+/* Background Colors for Card Types */
+.email-bg {
+    background-color: var(--color-email-bg);
+}
+
+.sms-bg {
+    background-color: var(--color-sms-bg);
+}
+
+.whatsapp-bg {
+    background-color: var(--color-whatsapp-bg);
+}
+
+.webpush-bg {
+    background-color: var(--color-push-bg);
+}
+
+/* ===== AUTOMATED CAMPAIGN SECTION ===== */
+.automation-btn {
+    padding: 8px 12px;
+    background-color: var(--color-white);
+    border-radius: var(--border-radius_md);
+    border: 1px solid var(--color-mid-grey);
+    color: var(--color-black);
+    font-weight: 600;
+}
+
+.automation-btn:hover {
+    background-color: var(--color-accent-01);
+}
+
+/* Automated Campaign Cards */
+.card-button--auto {
+    border-radius: var(--border-radius_md);
+    border: 1px solid var(--color-mid-grey);
     height: 8.25rem;
     width: 16.3rem;
     padding: 16px;
     cursor: pointer;
 }
 
-.card-button__auto:hover {
-    box-shadow: var(--sib-shadow_dark-small);
+.card-button--auto:hover {
+    box-shadow: var(--shadow_dark-small);
     transition: var(--transition-fast);
-    transform:  scale(1.02);
+    transform: scale(1.02);
 }
 
-.card-heading__auto {
+.card-heading--auto {
     font-weight: 700;
 }
 
-.card-description__auto {
+.card-description--auto {
     margin-top: 8px;
-}
-
-.title {
-    font-size: 18px;
 }
