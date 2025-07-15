@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Outbound Modal</title>
+</head>
+<body>
+    <main>
+        <button id="open-campaign-modal-btn">Create campaign</button>
+        <div id="campaign-modal">
+            <section class="modal">
+                <div class="modal-header-container">
+                    <header class="modal-header">
+                        <div class="modal-heading">Create a campaign</div>
+                        <!-- <button id="close-campaign-modal-btn">X</button> -->
+                        <button id="close-campaign-modal-btn" type="button" class="close-btn" aria-label="close button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 16 16" data-animate="false" data-interactive="false" aria-hidden="true">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m12 4-8 8m0-8 8 8">
+                                </path>
+                            </svg>
+                        </button>
+                    </header>
+                    <div class="modal-border"></div>
+                </div>
+                
+                <div class="modal-content">
+                    <section class="standard-campaign">
+                        <div class="title-box-container">
+                            <div class="title-box">
+                                <div class="title">Standard</div>
+                                <div class="description">Create a one-off campaign from scratch</div>
+                            </div>
+                        </div>
+                        <section class="card-container">
+                            <div class="card-button active">
+                                <div class="card-image email-bg">
+                                    <img src="Email.webp" />
+                                </div>
+                                <div class="card-content"><span>Email</span></div>
+                            </div>
+                            <div class="card-button">
+                                <div class="card-image sms-bg">
+                                    <img src="SMS.webp" />
+                                </div>
+                                <div class="card-content"><span>SMS</span><button type="button" class="activate-btn">Activate</button></div>
+                            </div>
+                            <div class="card-button active">
+                                <div class="card-image whatsapp-bg" style="background-color: #FFF4F0">
+                                    <img src="Whatsapp.webp" />
+                                </div>
+                                <div class="card-content"><span>Whatsapp</span></div>
+                            </div>
+                            <div class="card-button">
+                                <div class="card-image webpush-bg" style="background-color: #FAF9F5;">
+                                    <img src="WebPush.webp" />
+                                </div>
+                                <div class="card-content"><span>Web Push</span><button type="button" class="activate-btn">Activate</button></div>
+                            </div>
+                        </section>
+                    </section>
+                    
+                    <section class="automated-campaign">
+                        <div class="title-box-container">
+                            <div class="title-box">
+                                <div class="title">Automated</div>
+                                <div class="description">Use a pre-built automated sequence of messages, or create one yourself.</div> 
+                            </div>
+                            <button class="automation-btn">Create a custom automation</button>
+                        </div>
+                        <section class="card-container">
+                            <div class="card-button--auto">
+                                <div class="card-heading--auto">Abandoned Cart</div>
+                                <div class="card-description--auto">Send a message after a contact abandons a cart.</div>
+                            </div>
+                            <div class="card-button--auto">
+                                <div class="card-heading--auto">Product Purchase</div>
+                                <div class="card-description--auto">Send a message when a product is purchased on your website.</div>
+                            </div>
+                            <div class="card-button--auto">
+                                <div class="card-heading--auto">Welcome Message</div>
+                                <div class="card-description--auto">Send a welcome message after a subscriber joins your list.</div>
+                            </div>
+                            <div class="card-button--auto">
+                                <div class="card-heading--auto">Marketing Activity</div>
+                                <div class="card-description--auto">Send messages based on whether contacts open or click on an email campaign.</div>
+                            </div>
+                            <div class="card-button--auto">
+                                <div class="card-heading--auto">Anniversary Date</div>
+                                <div class="card-description--auto">Send a series of messages based on a special event or birthday.</div>
+                            </div>
+                            <div class="card-button--auto">
+                                <div class="card-heading--auto">Page Visit</div>
+                                <div class="card-description--auto">Send a message after a contact visits a specific page on your website.</div>
+                            </div>
+                            <div class="card-button--auto">
+                                <div class="card-heading--auto">Website Event</div>
+                                <div class="card-description--auto">Send a message after a contact performs a specific action on your website.</div>
+                            </div>
+                            <div class="card-button--auto">
+                                <div class="card-heading--auto">Transactional Activity</div>
+                                <div class="card-description--auto">Send a message based on whether contacts open or click on transactional emails.</div>
+                            </div>
+                        </section>
+                    </section>
+                </div>
+            </section>
+        </div>    
+    </main>
+    
+    <script src="index.js"></script>
+</body>
+</html>
